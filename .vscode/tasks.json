@@ -1,0 +1,19 @@
+{
+    "version": "0.1.0",
+    "command": "go",
+    "isShellCommand": true,
+    "showOutput": "always",
+    "echoCommand": true,
+    "options": {
+        "env": {
+            "GOPATH": "/Users/JoePitz/Code/Go"
+        }
+    },
+    "tasks": [
+        {
+            "taskName": "install",
+            "args": [ "-v", "./..."],
+            "isBuildCommand": true
+        }
+    ]
+}
